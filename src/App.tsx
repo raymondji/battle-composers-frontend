@@ -1,10 +1,12 @@
 import * as React from 'react'
 import './App.css'
+import {Lobby} from './lobby/Lobby'
 
 export default function App() {
   return (
     <main>
-      React⚛️ + Vite⚡ + Replit🌀
+      Battle composers
+      <Lobby />
     </main>
   )
 }
